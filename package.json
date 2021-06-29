@@ -8,7 +8,8 @@
     "test": "npm run build && cross-env LISA_ENV=test jest --coverage",
     "build": "./node_modules/.bin/tsc",
     "prepublish": "del-cli lib && npm run build",
-    "docs": "typedoc --out docs"
+    "docs": "typedoc --out docs",
+    "deploy:staging": "cross-env DEPLOY_ENV=staging node deploy.js"
   },
   "author": "geekBoom.Zhao <zbzhao@listenai.com>",
   "files": [
