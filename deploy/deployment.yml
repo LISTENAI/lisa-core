@@ -1,0 +1,18 @@
+{% extends "deployment-base-lynxthink.yml" %}
+
+{% block resources %}
+          resources:
+            requests:
+              cpu: 100m
+              memory: 200Mi
+{% endblock %}
+
+{% block env %}
+          - name: PORT
+            value: "80"
+          - name: DEMOKEY
+            valueFrom:
+              secretKeyRef:
+                name: general
+                key: current_namespace
+{% endblock %}

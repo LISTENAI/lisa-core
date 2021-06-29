@@ -1,0 +1,9 @@
+lib
+node_modules
+out
+docs
+coverage
+target
+log
+asdfasdf
+*-error.log
