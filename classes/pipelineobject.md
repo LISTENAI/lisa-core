@@ -29,7 +29,7 @@ pipelineObject定义
 
 #### Defined in
 
-[src/application.ts:22](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/application.ts#L22)
+[src/application.ts:22](https://github.com/LISTENAI/lisa-core/blob/d9d6a08/src/application.ts#L22)
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[src/application.ts:23](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/application.ts#L23)
+[src/application.ts:23](https://github.com/LISTENAI/lisa-core/blob/d9d6a08/src/application.ts#L23)

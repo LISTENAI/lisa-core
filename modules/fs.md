@@ -345,7 +345,7 @@ node_modules/@types/fs-extra/index.d.ts:306
 
 #### Defined in
 
-[src/fs/index.ts:22](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/fs/index.ts#L22)
+[src/fs/index.ts:22](https://github.com/LISTENAI/lisa-core/blob/d9d6a08/src/fs/index.ts#L22)
 
 ## Functions
 
@@ -4103,7 +4103,7 @@ ___
 
 #### Defined in
 
-[src/fs/index.ts:27](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/fs/index.ts#L27)
+[src/fs/index.ts:27](https://github.com/LISTENAI/lisa-core/blob/d9d6a08/src/fs/index.ts#L27)
 
 ___
 
