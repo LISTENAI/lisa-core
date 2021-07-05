@@ -75,7 +75,7 @@ pipeline定义
 
 #### Defined in
 
-[src/application.ts:16](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/application.ts#L16)
+[src/application.ts:16](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/application.ts#L16)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:10](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/application.ts#L10)
+[src/application.ts:10](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/application.ts#L10)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:11](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/application.ts#L11)
+[src/application.ts:11](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/application.ts#L11)
 
 ## Variables
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L15)
+[src/index.ts:15](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L15)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:26](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L26)
+[src/index.ts:26](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L26)
 
 ___
 
@@ -273,7 +273,7 @@ A [`child_process` instance](https://nodejs.org/api/child_process.html#child_pro
 
 #### Defined in
 
-[src/index.ts:47](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L47)
+[src/index.ts:47](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L47)
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:20](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L20)
+[src/index.ts:20](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L20)
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:9](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L9)
+[src/load.ts:9](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L9)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:21](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L21)
+[src/index.ts:21](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L21)
 
 ___
 
@@ -380,7 +380,7 @@ node_modules/cli-ux/lib/index.d.ts:7
 
 #### Defined in
 
-[src/argv.ts:10](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/argv.ts#L10)
+[src/argv.ts:10](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/argv.ts#L10)
 
 ___
 
@@ -437,7 +437,7 @@ return path.basename(projectPath)
 
 #### Defined in
 
-[src/argv.ts:42](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/argv.ts#L42)
+[src/argv.ts:42](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/argv.ts#L42)
 
 ___
 
@@ -473,7 +473,7 @@ job("lisa_core:pre_build", {
 
 #### Defined in
 
-[src/task/index.ts:21](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/task/index.ts#L21)
+[src/task/index.ts:21](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/task/index.ts#L21)
 
 ___
 
@@ -487,7 +487,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:169](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L169)
+[src/load.ts:169](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L169)
 
 ___
 
@@ -509,7 +509,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:39](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L39)
+[src/load.ts:39](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L39)
 
 ___
 
@@ -523,7 +523,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:105](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L105)
+[src/load.ts:105](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L105)
 
 ___
 
@@ -537,7 +537,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:145](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L145)
+[src/load.ts:145](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L145)
 
 ___
 
@@ -557,7 +557,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:15](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L15)
+[src/load.ts:15](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L15)
 
 ___
 
@@ -577,7 +577,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:95](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L95)
+[src/load.ts:95](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L95)
 
 ___
 
@@ -599,7 +599,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:65](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L65)
+[src/load.ts:65](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L65)
 
 ___
 
@@ -613,7 +613,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:99](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L99)
+[src/load.ts:99](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L99)
 
 ___
 
@@ -634,7 +634,7 @@ ___
 
 #### Defined in
 
-[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/argv.ts#L4)
+[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/argv.ts#L4)
 
 ▸ `Const` **minimist**<`T`\>(`args?`, `opts?`): `T` & `minimist.ParsedArgs`
 
@@ -657,7 +657,7 @@ ___
 
 #### Defined in
 
-[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/argv.ts#L4)
+[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/argv.ts#L4)
 
 ▸ `Const` **minimist**<`T`\>(`args?`, `opts?`): `T`
 
@@ -680,7 +680,7 @@ ___
 
 #### Defined in
 
-[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/argv.ts#L4)
+[src/argv.ts:4](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/argv.ts#L4)
 
 ___
 
@@ -700,7 +700,7 @@ ___
 
 #### Defined in
 
-[src/load.ts:85](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/load.ts#L85)
+[src/load.ts:85](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/load.ts#L85)
 
 ___
 
@@ -716,7 +716,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:52](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/index.ts#L52)
+[src/index.ts:52](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/index.ts#L52)
 
 ___
 
@@ -738,4 +738,4 @@ ___
 
 #### Defined in
 
-[src/task/index.ts:25](https://github.com/LISTENAI/lisa-core/blob/3afe78b/src/task/index.ts#L25)
+[src/task/index.ts:25](https://github.com/LISTENAI/lisa-core/blob/e9982b6/src/task/index.ts#L25)
