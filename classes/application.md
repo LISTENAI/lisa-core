@@ -73,7 +73,7 @@ lisa server api host
 
 #### Defined in
 
-[src/application.ts:86](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L86)
+[src/application.ts:86](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L86)
 
 ___
 
@@ -85,7 +85,7 @@ lisa server api prefix
 
 #### Defined in
 
-[src/application.ts:99](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L99)
+[src/application.ts:99](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L99)
 
 ___
 
@@ -97,7 +97,7 @@ lisa cache 缓存目录
 
 #### Defined in
 
-[src/application.ts:112](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L112)
+[src/application.ts:112](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L112)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:213](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L213)
+[src/application.ts:213](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L213)
 
 ___
 
@@ -121,7 +121,7 @@ lisa accessToken
 
 #### Defined in
 
-[src/application.ts:60](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L60)
+[src/application.ts:60](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L60)
 
 ___
 
@@ -133,7 +133,7 @@ log 路径
 
 #### Defined in
 
-[src/application.ts:279](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L279)
+[src/application.ts:279](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L279)
 
 ___
 
@@ -145,7 +145,7 @@ lpm registry url
 
 #### Defined in
 
-[src/application.ts:73](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L73)
+[src/application.ts:73](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L73)
 
 ___
 
@@ -157,7 +157,7 @@ lscloud personalToken
 
 #### Defined in
 
-[src/application.ts:47](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L47)
+[src/application.ts:47](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L47)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:255](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L255)
+[src/application.ts:255](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L255)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:142](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L142)
+[src/application.ts:142](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L142)
 
 ___
 
@@ -193,7 +193,7 @@ download 目录
 
 #### Defined in
 
-[src/application.ts:157](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L157)
+[src/application.ts:157](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L157)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:167](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L167)
+[src/application.ts:167](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L167)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:126](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L126)
+[src/application.ts:126](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L126)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:172](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L172)
+[src/application.ts:172](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L172)
 
 ___
 
@@ -241,7 +241,7 @@ pin脚设置
 
 #### Defined in
 
-[src/application.ts:131](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L131)
+[src/application.ts:131](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L131)
 
 ___
 
@@ -253,7 +253,7 @@ package.json 信息
 
 #### Defined in
 
-[src/application.ts:42](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L42)
+[src/application.ts:42](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L42)
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:195](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L195)
+[src/application.ts:195](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L195)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:147](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L147)
+[src/application.ts:147](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L147)
 
 ___
 
@@ -289,7 +289,7 @@ task 文件地址
 
 #### Defined in
 
-[src/application.ts:162](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L162)
+[src/application.ts:162](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L162)
 
 ___
 
@@ -303,7 +303,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:37](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L37)
+[src/application.ts:37](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L37)
 
 ___
 
@@ -315,7 +315,7 @@ template 目录
 
 #### Defined in
 
-[src/application.ts:152](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L152)
+[src/application.ts:152](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L152)
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:137](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L137)
+[src/application.ts:137](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L137)
 
 ## Accessors
 
@@ -341,7 +341,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:92](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L92)
+[src/application.ts:92](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L92)
 
 • `set` **apiHost**(`url`): `void`
 
@@ -357,7 +357,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:88](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L88)
+[src/application.ts:88](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L88)
 
 ___
 
@@ -371,7 +371,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:105](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L105)
+[src/application.ts:105](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L105)
 
 • `set` **apiPrefix**(`url`): `void`
 
@@ -387,7 +387,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:101](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L101)
+[src/application.ts:101](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L101)
 
 ___
 
@@ -401,7 +401,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:118](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L118)
+[src/application.ts:118](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L118)
 
 • `set` **cacheDir**(`url`): `void`
 
@@ -417,7 +417,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:114](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L114)
+[src/application.ts:114](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L114)
 
 ___
 
@@ -431,7 +431,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:214](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L214)
+[src/application.ts:214](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L214)
 
 ___
 
@@ -445,7 +445,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:66](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L66)
+[src/application.ts:66](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L66)
 
 • `set` **lisaAccessToken**(`token`): `void`
 
@@ -461,7 +461,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:62](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L62)
+[src/application.ts:62](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L62)
 
 ___
 
@@ -475,7 +475,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:285](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L285)
+[src/application.ts:285](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L285)
 
 • `set` **logPath**(`url`): `void`
 
@@ -491,7 +491,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:281](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L281)
+[src/application.ts:281](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L281)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:79](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L79)
+[src/application.ts:79](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L79)
 
 • `set` **lpmRegistryUrl**(`url`): `void`
 
@@ -521,7 +521,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:75](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L75)
+[src/application.ts:75](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L75)
 
 ___
 
@@ -535,7 +535,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:53](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L53)
+[src/application.ts:53](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L53)
 
 • `set` **lscloudPersonalToken**(`token`): `void`
 
@@ -551,7 +551,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:49](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L49)
+[src/application.ts:49](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L49)
 
 ## Methods
 
@@ -574,7 +574,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:223](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L223)
+[src/application.ts:223](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L223)
 
 ___
 
@@ -596,7 +596,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:236](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L236)
+[src/application.ts:236](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L236)
 
 ___
 
@@ -618,7 +618,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:178](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L178)
+[src/application.ts:178](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L178)
 
 ___
 
@@ -639,7 +639,7 @@ npm run build && LISA_ENV=test jest --coverage
 
 #### Defined in
 
-[src/application.ts:265](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L265)
+[src/application.ts:265](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L265)
 
 ___
 
@@ -661,7 +661,7 @@ log stderr 输出
 
 #### Defined in
 
-[src/application.ts:333](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L333)
+[src/application.ts:333](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L333)
 
 ___
 
@@ -683,7 +683,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:244](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L244)
+[src/application.ts:244](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L244)
 
 ___
 
@@ -706,7 +706,7 @@ gitignore 设置git忽略的目录文件
 
 #### Defined in
 
-[src/application.ts:294](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L294)
+[src/application.ts:294](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L294)
 
 ___
 
@@ -728,7 +728,7 @@ log stdout 输出
 
 #### Defined in
 
-[src/application.ts:317](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L317)
+[src/application.ts:317](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L317)
 
 ___
 
@@ -759,7 +759,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:351](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L351)
+[src/application.ts:351](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L351)
 
 ___
 
@@ -773,4 +773,4 @@ ___
 
 #### Defined in
 
-[src/application.ts:182](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L182)
+[src/application.ts:182](https://github.com/LISTENAI/lisa-core/blob/4264157/src/application.ts#L182)
