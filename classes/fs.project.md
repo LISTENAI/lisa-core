@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[src/fs/project.ts:68](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L68)
+[src/fs/project.ts:68](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L68)
 
 ## Properties
 
@@ -59,7 +59,7 @@ template 目录
 
 #### Defined in
 
-[src/fs/project.ts:46](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L46)
+[src/fs/project.ts:46](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L46)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:20](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L20)
+[src/fs/project.ts:20](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L20)
 
 ___
 
@@ -83,7 +83,7 @@ template 目录
 
 #### Defined in
 
-[src/fs/project.ts:33](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L33)
+[src/fs/project.ts:33](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L33)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:68](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L68)
+[src/fs/project.ts:68](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L68)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:63](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L63)
+[src/fs/project.ts:63](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L63)
 
 ## Accessors
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:55](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L55)
+[src/fs/project.ts:55](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L55)
 
 • `set` **download_path**(`dir`): `void`
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:48](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L48)
+[src/fs/project.ts:48](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L48)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:26](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L26)
+[src/fs/project.ts:26](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L26)
 
 • `set` **root**(`dir`): `void`
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:22](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L22)
+[src/fs/project.ts:22](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L22)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:39](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L39)
+[src/fs/project.ts:39](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L39)
 
 • `set` **template_path**(`dir`): `void`
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:35](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L35)
+[src/fs/project.ts:35](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L35)
 
 ## Methods
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:138](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L138)
+[src/fs/project.ts:138](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L138)
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:171](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L171)
+[src/fs/project.ts:171](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L171)
 
 ___
 
@@ -268,7 +268,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:100](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L100)
+[src/fs/project.ts:100](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L100)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:84](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L84)
+[src/fs/project.ts:84](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L84)
 
 ___
 
@@ -312,7 +312,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:108](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L108)
+[src/fs/project.ts:108](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L108)
 
 ___
 
@@ -336,7 +336,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:154](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L154)
+[src/fs/project.ts:154](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L154)
 
 ___
 
@@ -358,7 +358,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:92](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L92)
+[src/fs/project.ts:92](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L92)
 
 ___
 
@@ -380,7 +380,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:122](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L122)
+[src/fs/project.ts:122](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L122)
 
 ___
 
@@ -403,7 +403,7 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:210](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L210)
+[src/fs/project.ts:210](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L210)
 
 ___
 
@@ -419,4 +419,4 @@ ___
 
 #### Defined in
 
-[src/fs/project.ts:218](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/fs/project.ts#L218)
+[src/fs/project.ts:218](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/fs/project.ts#L218)

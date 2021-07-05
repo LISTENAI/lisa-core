@@ -20,7 +20,7 @@ Lisa Env 环境变量
 
 #### Defined in
 
-[src/application.ts:30](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/application.ts#L30)
+[src/application.ts:30](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L30)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/application.ts:31](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/application.ts#L31)
+[src/application.ts:31](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L31)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/application.ts:32](https://github.com/LISTENAI/lisa-core/blob/98d73d7/src/application.ts#L32)
+[src/application.ts:32](https://github.com/LISTENAI/lisa-core/blob/ef9fd4c/src/application.ts#L32)
