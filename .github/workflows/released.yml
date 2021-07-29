@@ -1,4 +1,4 @@
-name: staging
+name: docs
 
 on:
   pull_request:

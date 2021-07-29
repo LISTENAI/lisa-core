@@ -5,5 +5,6 @@ docs
 coverage
 target
 log
-asdfasdf
 *-error.log
+.lisa
+__test__/__project__

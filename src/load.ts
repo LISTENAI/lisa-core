@@ -8,20 +8,21 @@ const {fs} = core
  */
 export function loadFile(file: string) {
     try {
-        if (fs.existsSync(file)) {
-        const module = require(file)
-        if ('default' in module && typeof module.default == 'function') {
-            require(file).default(core)
-        } else if (typeof module == 'function') {
-            require(file)(core)
-        }
-        }
+        import(file).then(lib => {
+            if ('default' in lib && typeof lib.default == 'function') {
+                lib.default(core)
+            } else if (typeof lib == 'function') {
+                lib(core)
+            }
+        }).catch(err => {
+            // console.log(err)
+        })
     } catch(e) {
         /* istanbul ignore next */
         console.error(e)
         /* istanbul ignore next */
         if (process.env['LISA_ENV'] == 'dev') {
-        process.exit(1)
+            process.exit(1)
         }
     }
 }
@@ -71,6 +72,7 @@ export function loadTask(taskPath? : string) {
     if (core.application.packageJSON?.lisa?.enableTs) {
         loadFile(path.join(process.cwd(), "task.ts"))
     } else {
+        console.log('这里呢', path.join(process.cwd(), "task.js"))
         loadFile(path.join(process.cwd(), "task.js"))
     }
 }
@@ -167,7 +169,5 @@ export function load() {
     loadConfig()
     // 3、load 最终的config.task_path
     loadTask()
-
-    return core
 }
 

@@ -3,7 +3,7 @@ import lisa from '../src'
 import {projectDir, projectDirSync, removeDir, changeCwd, } from './res/utils'
 import * as path from 'path'
 
-const {fs} = lisa
+const {fs, application} = lisa
 const TEST_TYPE = 'load'
 
 describe('测试 load.ts', () => {
@@ -23,15 +23,19 @@ describe('测试 load.ts', () => {
         // 更改执行目录
         const baseCwd = process.cwd()
         changeCwd(TEST_DIR)
+        Promise.all([
+            load()
+        ]).then(() => {
+            const taskKeys = Object.keys(application.tasks)
+            // 是否已成功加载对应的task
+            const taskLoadSuccess = taskKeys.includes('test') && taskKeys.includes('project:test')
+            // 更改回原执行目录,方便删除测试目录
+            changeCwd(baseCwd)
 
-        const core = load()
-        const taskKeys = Object.keys(core.application.tasks)
-        // 是否已成功加载对应的task
-        const taskLoadSuccess = taskKeys.includes('test') && taskKeys.includes('project:test')
-        // 更改回原执行目录,方便删除测试目录
-        changeCwd(baseCwd)
+            expect(taskLoadSuccess).toBeTruthy()
+        })
 
-        expect(taskLoadSuccess).toBeTruthy()
+        
 
     })
 })
