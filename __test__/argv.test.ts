@@ -1,4 +1,5 @@
-import { application, argv, flags } from '../'
+import { argv, flags } from '../src'
+import lisa from '../src'
 
 class FlagTest {
   @flags("name")
@@ -10,7 +11,7 @@ class FlagTest {
 test('调用argv', async () => {
   expect(argv()).not.toBeNaN()
 
-  application.argv.push("--name", "mj")
+  lisa.application.argv.push("--name", "mj")
   expect(argv().name).toBe("mj")
 
   const flagTest = new FlagTest()

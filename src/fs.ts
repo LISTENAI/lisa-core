@@ -20,10 +20,3 @@ export * from 'fs-extra'
  * 项目主路径，默认为命令行运行的当前的目录
  */
 export var project: Project = new Project();
-
-/**
- * 危险，本方法仅允许测试代码中使用
- */
-export function reloadProject() {
-  project = new Project()
-}
