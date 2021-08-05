@@ -56,18 +56,24 @@ export class Application {
         return this._registryUrl || process.env.LISA_REGISTRY || 'https://registry-lpm.listenai.com'
     }
 
-    // /**
-    //  * registry url -- create by 2.0
-    //  */
-    //  private _debug?: any
+    /**
+     * debug func -- create by 2.0
+     */
+    private _debug?: any
 
-    //  set debug(debug: any) {
-    //      this._registryUrl = url
-    //  }
+    set debug(flag: string) {
+        this._debug = require('debug')(flag)
+    }
  
-    //  get registryUrl(): string {
-    //      return this._registryUrl || process.env.LISA_REGISTRY || 'https://registry-lpm.listenai.com'
-    //  }
+    get debug(): any {
+        return this._debug || ((flag: any, msg?: any) => {
+            if (msg !== undefined) {
+                require('debug')(flag)(msg)
+            } else {
+                require('debug')('lisa:debug')(flag)
+            }
+        })
+    }
 
 
     /**

@@ -1,6 +1,6 @@
 {
   "name": "@listenai/lisa_core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Lisa Framework 的核心模块",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -9,7 +9,7 @@
     "build": "tsc -p .",
     "prepublish": "del-cli lib && npm run build",
     "dev": "ts-node src/test.ts",
-    "docs": "typedoc --out docs src/index.ts"
+    "docs": "cross-env del-cli docs && typedoc"
   },
   "author": "geekBoom.Zhao <zbzhao@listenai.com>",
   "license": "MIT",
@@ -26,12 +26,13 @@
     "del-cli": "^4.0.0",
     "jest": "^27.0.4",
     "ts-jest": "^27.0.3",
-    "typedoc": "^0.21.2",
-    "typedoc-plugin-markdown": "^3.10.2"
+    "typedoc": "^0.17.8",
+    "typedoc-plugin-markdown": "^2.4.2"
   },
   "dependencies": {
     "adm-zip": "^0.5.5",
     "cli-ux": "^5.6.2",
+    "debug": "^4.3.2",
     "ejs": "^3.1.6",
     "enquirer": "^2.3.6",
     "execa": "^5.1.1",
