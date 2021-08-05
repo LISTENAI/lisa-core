@@ -1,38 +1,25 @@
-name: docs
+name: released
 
 on:
-  pull_request:
-    branches: [master]
-  push:
-    branches: [master]
+  release:
+    types: [published]
 
 jobs:
-  docs-build:
-    if: github.event_name != 'pull_request'
+  publish-lpm:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - uses: webfactory/ssh-agent@v0.5.0
+      - run: |
+          echo -e "//registry-lpm.listenai.com/:_password=${{ secrets.LPM_ZHUOBIN_TOKEN }}" > .npmrc
+          echo -e "//registry-lpm.listenai.com/:username=zbzhao" >> .npmrc
+          echo -e "//registry-lpm.listenai.com/:email=zbzhao@listenai.com" >> .npmrc
+          echo -e "//registry-lpm.listenai.com/:always-auth=true" >> .npmrc
+      - run: npm install --registry=https://registry-lpm.listenai.com
+      - run: npm run build
+      - run: npm publish --registry=https://registry-lpm.listenai.com
+      - uses: JS-DevTools/npm-publish@v1
         with:
-          ssh-private-key: ${{ secrets.DOCS_DEPLOY }}
-      - name: Build docs
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-          npm run docs
-      - name: Push docs branch
-        env:
-          USE_SSH: true
-          GIT_USER: git
-        run: |
-          git config --global user.email "docs@listenai.com"
-          git config --global user.name "listenai-docs"
-          npm run deploy:staging
+          token: ${{ secrets.NPM_TOKEN }}
