@@ -122,13 +122,13 @@ export function loadTypescript() {
     }
 }
 
-export function loadDependencies() {
+export function loadDependencies(justConfig?: boolean) {
     if (!core.application.packageJSON) {
         return
     }
 
     (Object.keys(core.application.packageJSON?.dependencies || {})).forEach((dep: string) => {
-        loadDependence(dep)
+        loadDependence(dep, justConfig)
     })
 }
 
@@ -136,7 +136,7 @@ export function loadDependencies() {
  * 加载 单个依赖包
  * @param taskPath task地址，默认为packge.json中配置的地址，如果没有配置，读取项目中 task.js
  */
-function loadDependence(dep: string) {
+function loadDependence(dep: string, justConfig?: boolean) {
     const depPath = fs.project.join(`node_modules/${dep}`)
     const depPackage = parsePackageJSON(path.join(depPath, 'package.json'))
 
@@ -145,7 +145,7 @@ function loadDependence(dep: string) {
         loadFile(configPath)
     }
 
-    if (depPackage?.lisa?.taskPath) {
+    if (depPackage?.lisa?.taskPath && !justConfig) {
         const taskPath = path.join(depPath, depPackage?.lisa?.taskPath)
         loadFile(taskPath)
     }
@@ -267,6 +267,7 @@ export function loadPreRunTask() {
             loadDependence(taskDict[task]?.depFrom)
         }
     })
+    loadDependencies(true)
     loadPwdConfig()
     loadPwdTask()
 }
