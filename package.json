@@ -1,6 +1,6 @@
 {
   "name": "@listenai/lisa_core",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Lisa Framework 的核心模块",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -17,9 +17,7 @@
     "/lib"
   ],
   "devDependencies": {
-    "@types/adm-zip": "^0.4.34",
     "@types/ejs": "^3.0.6",
-    "@types/fs-extra": "^9.0.11",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.2",
     "cross-env": "^7.0.3",
@@ -30,6 +28,8 @@
     "typedoc-plugin-markdown": "^2.4.2"
   },
   "dependencies": {
+    "@types/adm-zip": "^0.4.34",
+    "@types/fs-extra": "^9.0.11",
     "adm-zip": "^0.5.5",
     "cli-ux": "^5.6.2",
     "debug": "^4.3.2",
