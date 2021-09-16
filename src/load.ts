@@ -190,6 +190,9 @@ export function loadDevDependencies() {
  */
 export function loadTaskDict() {
     loadPackageJSON()
+    if (!core.application?.packageJSON?.dependencies) {
+        return
+    }
     let deps = Object.keys(core.application.packageJSON.dependencies)
     for (let i = 0; i < deps.length; i++) {
         core.application.tasks = {}
