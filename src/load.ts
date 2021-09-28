@@ -226,7 +226,7 @@ export function loadTaskDict() {
  */
  export function getTaskDict(): {[key:string]: any} {
     loadPackageJSON()
-    let deps = Object.keys(core.application.packageJSON.dependencies)
+    let deps = Object.keys(core.application?.packageJSON?.dependencies || {})
     let taskList = {}
     for (let i = 0; i < deps.length; i++) {
         const depPath = fs.project.join(`node_modules/${deps[i]}`)
