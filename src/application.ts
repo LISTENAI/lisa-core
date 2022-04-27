@@ -3,10 +3,17 @@ import {ListrTask, ListrBaseClassOptions} from 'listr2'
 import * as fs from 'fs-extra'
 import ignore from 'ignore'
 import * as minimist from 'minimist'
+import lisa from '.'
 
 type ConfigFunc = (app: Application) => void
 export type TaskObject = ListrTask
 export type TaskOptions = ListrBaseClassOptions<any, any, "verbose">
+
+export type pluginItem = {
+    pluginName?: string;
+    version?: string;
+    env?: object;
+}
 
 /**
  * pipeline定义
@@ -276,5 +283,36 @@ export class Application {
         } else {
             fs.writeFileSync(_logFile, stderr)
         }
+    }
+
+    /**
+     * getPluginByName 获取plugin相关信息
+     * @param name pluginName
+     * @param keys 所需字段
+     */
+    async getPluginByName(name: string): Promise<pluginItem> {
+        const globalRoot = await (async (): Promise<string> => {
+            let globalRoot = ''
+            try {
+                const result = await Promise.all([
+                  await lisa.cmd('npm', 'root -g'.split(' ')),
+                ])
+                globalRoot = result[0].stdout
+            } catch (error) {}
+            return globalRoot
+        })()
+        const pluginRoot = path.resolve(path.join(globalRoot, '@lisa-plugin', name))
+        const data: pluginItem = {}
+        if (fs.existsSync(path.join(pluginRoot, 'package.json'))) {
+            const pjson = await fs.readJSON(path.join(pluginRoot, 'package.json'))
+            data.pluginName = pjson.name
+            data.version = pjson.version
+            try {
+                data.env = await require(path.join(pluginRoot, pjson.main)).exportEnv()
+            } catch (error) {
+                data.env = {}              
+            }
+        }
+        return data
     }
 }

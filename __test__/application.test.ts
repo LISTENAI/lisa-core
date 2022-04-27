@@ -59,5 +59,11 @@ describe('测试 application', () => {
     application.gitignore(path.join(TEST_DIR, './.gitignore'), ['node_modules', 'asdfasdf'])
   })
 
+  test('测试getPluginByName', async () => {
+    // 模拟一个项目目录
+    const plugin = await application.getPluginByName('zephyr')
+    expect(plugin.pluginName).toBe('@lisa-plugin/zephyr')
+  })
+
 })
 
