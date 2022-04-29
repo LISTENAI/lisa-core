@@ -1,5 +1,5 @@
 import lisa from '../src'
-const { application } = lisa
+const { application, cmd } = lisa
 import { PipelineObject } from '../src'
 import {projectDir, projectDirSync, removeDir, changeCwd, } from './res/utils'
 import * as path from 'path'
@@ -62,7 +62,7 @@ describe('测试 application', () => {
   test('测试getPluginByName', async () => {
     // 模拟一个项目目录
     const plugin = await application.getPluginByName('zephyr')
-    expect(plugin.pluginName).toBe('@lisa-plugin/zephyr')
+    expect(plugin.pluginName).toBe(undefined)
   })
 
 })
