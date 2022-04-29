@@ -1,8 +1,7 @@
-import { fstat } from 'fs-extra'
 import * as path from 'path'
 import * as fs from 'fs-extra'
 import * as ejs from 'ejs'
-import { application } from '../index'
+import lisa from './index'
 import got from 'got'
 import * as stream from 'stream'
 import {promisify} from 'util'
@@ -24,7 +23,7 @@ export class Project {
   }
 
   get root(): string {
-    return this._root || application.root
+    return this._root || lisa.application.root
   }
 
   /**
@@ -37,7 +36,7 @@ export class Project {
   }
 
   get template_path(): string {
-    return this._template_path || application.template_path
+    return this._template_path || lisa.application.template_path
   }
 
   /**
@@ -53,7 +52,7 @@ export class Project {
   }
 
   get download_path(): string {
-    return this._download_path || application.download_path
+    return this._download_path || lisa.application.download_path
   }
 
 
@@ -71,8 +70,11 @@ export class Project {
     // this.root = root root = process.cwd()
     // this.template_path = this.join("template")
 
-    this.info = (_method, _message) => {}
+    this.info = (_method, _message) => {
+      lisa.application.log(`${_method},${_message}`)
+    }
     this.error = (method, message) => {
+      lisa.application.errorLog(`${method},${message}`)
       throw new Error(`${method}->${message}`)
     }
   }

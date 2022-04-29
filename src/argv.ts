@@ -1,5 +1,5 @@
 import * as _minimist from 'minimist'
-import { application } from '.'
+import lisa from '.'
 
 export const minimist = _minimist
 
@@ -7,7 +7,7 @@ export const minimist = _minimist
  * 获取环境变量
  * @param opts 设置解析参数
  */
-export function argv(argv: string[] = application.argv, opts?: _minimist.Opts) {
+export function argv(argv: string[] = (lisa.application.argv as string[]), opts?: _minimist.Opts) {
   if (argv.length > 0) {
     return minimist(argv, opts)
   } else {
@@ -45,8 +45,8 @@ export function flags(key: string) {
     descriptor.value = async function() {
       let _argv: any
 
-      if (application.argv.length > 0) {
-        _argv = minimist(application.argv)
+      if (lisa.application.argv.length > 0) {
+        _argv = minimist((lisa.application.argv as string[]))
       } else {
         _argv = argv()
       }

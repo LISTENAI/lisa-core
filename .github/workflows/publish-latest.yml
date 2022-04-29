@@ -1,0 +1,34 @@
+name: publish-latest
+
+on:
+  release:
+    types: [released]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+
+      - name: NPM config
+        run: |
+          npm config set //registry-lpm.listenai.com/:_password ${{ secrets.LPM_ADMIN_TOKEN }}
+          npm config set //registry-lpm.listenai.com/:username lpmadmin
+          npm config set //registry-lpm.listenai.com/:email lpm.admin@listenai.com
+          npm config set //registry-lpm.listenai.com/:always-auth true
+      
+      - name: Get Version
+        uses: battila7/get-version-action@v2
+        id: get_version
+      
+      - name: Publish (lpm)
+        run: npm dist-tag add @listenai/lisa_core@${{ steps.get_version.outputs.version-without-v }} latest --registry=https://registry-lpm.listenai.com
+
+      - name: Publish (npm) 
+        run: npm dist-tag add @listenai/lisa_core@${{ steps.get_version.outputs.version-without-v }} latest
+      
+      

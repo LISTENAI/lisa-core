@@ -1,0 +1,22 @@
+{
+    "name": "@listenai/test",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+      
+    },
+    "author": "",
+    "files": [
+      "/lib"
+    ],
+    "lisa": {
+      "taskPath": "./task.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "jesttest": "^0.0.1"
+    }
+  }
+  

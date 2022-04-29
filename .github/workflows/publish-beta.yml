@@ -1,0 +1,37 @@
+name: publish-beta
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+
+      - name: NPM config
+        run: |
+          npm config set //registry-lpm.listenai.com/:_password ${{ secrets.LPM_ADMIN_TOKEN }}
+          npm config set //registry-lpm.listenai.com/:username lpmadmin
+          npm config set //registry-lpm.listenai.com/:email lpm.admin@listenai.com
+          npm config set //registry-lpm.listenai.com/:always-auth true
+
+      - name: Install dependencies
+        run: npm install --registry=https://registry-lpm.listenai.com
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish (lpm-beta)
+        run: npm publish --registry=https://registry-lpm.listenai.com --tag=beta
+
+      - name: Publish (npm-beta)
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          tag: 'beta'
