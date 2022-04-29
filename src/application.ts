@@ -9,10 +9,10 @@ type ConfigFunc = (app: Application) => void
 export type TaskObject = ListrTask
 export type TaskOptions = ListrBaseClassOptions<any, any, "verbose">
 
-export type pluginItem = {
+export type PluginItem = {
     pluginName?: string;
     version?: string;
-    env?: object;
+    env?: {[key: string]: any};
 }
 
 /**
@@ -290,7 +290,7 @@ export class Application {
      * @param name pluginName
      * @param keys 所需字段
      */
-    async getPluginByName(name: string): Promise<pluginItem> {
+    async getPluginByName(name: string): Promise<PluginItem> {
         const globalRoot = await (async (): Promise<string> => {
             let globalRoot = ''
             try {
@@ -302,7 +302,7 @@ export class Application {
             return globalRoot
         })()
         const pluginRoot = path.resolve(path.join(globalRoot, '@lisa-plugin', name))
-        const data: pluginItem = {}
+        const data: PluginItem = {}
         if (fs.existsSync(path.join(pluginRoot, 'package.json'))) {
             const pjson = await fs.readJSON(path.join(pluginRoot, 'package.json'))
             data.pluginName = pjson.name
